@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Parallel classes suite]" parallel="classes">
+  <test name="Parallel classes">
+    <classes>
+      <class name="test.TestNGParallelExecution"/>
+      <class name="test.TestNGParalleExecution2"/>
+    </classes>
+  </test> <!-- Parallel classes -->
+  <test name="Parallel classes(failed)" parallel="classes">
+    <classes>
+      <class name="test.TestNGParalleExecution2">
+        <methods>
+          <include name="testFbLoginPage"/>
+        </methods>
+      </class> <!-- test.TestNGParalleExecution2 -->
+      <class name="test.TestNGParallelExecution">
+        <methods>
+          <include name="testGoogleSearch"/>
+        </methods>
+      </class> <!-- test.TestNGParallelExecution -->
+    </classes>
+  </test> <!-- Parallel classes(failed) -->
+</suite> <!-- Failed suite [Parallel classes suite] -->

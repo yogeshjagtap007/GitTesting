@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]">
+  <test name="Login">
+    <classes>
+      <class name="test.LoginTest"/>
+    </classes>
+  </test> <!-- Login -->
+  <test name="Friend Request">
+    <classes>
+      <class name="test.FriendRequestTest"/>
+    </classes>
+  </test> <!-- Friend Request -->
+</suite> <!-- Failed suite [Regression] -->

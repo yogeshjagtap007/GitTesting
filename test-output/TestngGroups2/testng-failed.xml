@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestngGroups2]">
+  <test name="Valid login group">
+    <groups>
+      <run>
+        <include name="ValidLogin"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.TestNgGroups"/>
+    </classes>
+  </test> <!-- Valid login group -->
+  <test name="InValid login group">
+    <groups>
+      <run>
+        <include name="InValidLogin"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.TestNgGroups2"/>
+    </classes>
+  </test> <!-- InValid login group -->
+</suite> <!-- Failed suite [TestngGroups2] -->

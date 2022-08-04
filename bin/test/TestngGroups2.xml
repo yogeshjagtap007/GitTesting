@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestngGroups2">
+
+	<test name="Valid login group">
+	
+	<groups>
+		<run>
+			<include name="ValidLogin"></include>
+		</run>
+	</groups>
+		<classes>
+			<class name="test.TestNgGroups"></class>
+
+		</classes>
+	</test>
+	
+	<test name="InValid login group">
+		<groups>
+		<run>
+			<include name="InValidLogin"></include>
+		</run>
+	</groups>
+		<classes>
+			<class name="test.TestNgGroups2"></class>
+
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="34752" started-at="2022-08-03T07:46:54Z" finished-at="2022-08-03T07:47:29Z">
+    <groups>
+    </groups>
+    <test name="Login1" duration-ms="14671" started-at="2022-08-03T07:46:54Z" finished-at="2022-08-03T07:47:09Z">
+      <class name="test.LoginTest1">
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.LoginTest1@282ba1e]" name="Login" duration-ms="14623" started-at="2022-08-03T13:16:54Z" finished-at="2022-08-03T13:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- test.LoginTest1 -->
+    </test> <!-- Login1 -->
+    <test name="Login2" duration-ms="20034" started-at="2022-08-03T07:47:09Z" finished-at="2022-08-03T07:47:29Z">
+      <class name="test.LoginTest2">
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.LoginTest2@3834d63f]" name="Login" duration-ms="20034" started-at="2022-08-03T13:17:09Z" finished-at="2022-08-03T13:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- test.LoginTest2 -->
+    </test> <!-- Login2 -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
